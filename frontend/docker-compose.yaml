@@ -1,0 +1,16 @@
+services:
+  frontend:
+    image: node:bookworm-slim
+    container_name: ccf-frontend
+    ports:
+      - '8000:5173'
+    volumes:
+      - ./:/frontend
+    stdin_open: true
+    tty: true
+    networks:
+      - ccf
+
+networks:
+  ccf:
+    name: ccf

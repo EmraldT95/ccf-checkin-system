@@ -1,0 +1,13 @@
+{
+  "name": "frontend-devcontainer",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "frontend",
+  "workspaceFolder": "/frontend",
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": ["vue.volar", "esbenp.prettier-vscode"]
+    }
+  }
+}

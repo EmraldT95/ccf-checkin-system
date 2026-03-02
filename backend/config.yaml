@@ -1,6 +1,0 @@
-database:
-  host: ccf-backend-db
-  port: 5432
-  username: ccf_internal
-  password: Qwertz114!
-  name: ccf_check_in

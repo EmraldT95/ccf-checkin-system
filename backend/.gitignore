@@ -17,5 +17,5 @@
 # Go workspace file
 go.work
 
-./config.*
+config.yaml
 *.env

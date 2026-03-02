@@ -1,0 +1,13 @@
+{
+  "name": "backend-devcontainer",
+  "dockerComposeFile": "./.devcontainer/docker-compose.yaml",
+  "service": "backend",
+  "workspaceFolder": "/backend",
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": ["golang.go", "esbenp.prettier-vscode"]
+    }
+  }
+}
